@@ -16,14 +16,14 @@ public class Task2conditionals {
             if (firstNumber > secondNumber) {
                 System.out.printf("%d greater than %d", firstNumber, secondNumber);
             }
-            if (firstNumber < secondNumber) {
+            else if (firstNumber < secondNumber) {
                 System.out.printf("%d less than %d", firstNumber, secondNumber);
             }
-            if (firstNumber == secondNumber) {
+            else {
                 System.out.printf("%d equals to %d", firstNumber, secondNumber);
             }
         } catch (Exception e) {
-            System.out.println("You've entered incorrect value. Please try again : ");
+            System.out.println("You've entered incorrect value. Please try again.");
             checker();
         }
     }
