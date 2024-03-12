@@ -23,12 +23,12 @@ public class Task3conditionals {
                         System.out.println("Triangle is equilateral!");
                     } else if (side1 == side2 || side2 == side3 || side1 == side3) {
                         System.out.println("Triangle is isosceles!");
-                    } else if (side1 != side2 || side2 != side3 || side3 != side1) {
+                    } else {
                         System.out.println("Triangle is scalene!");
                     }
                 }
             } catch (Exception e) {
-                System.out.println("You've entered incorrect value. Please try again : ");
+                System.out.println("You've entered incorrect value. Please try again.");
                 numberOrNot();
             }
         }
